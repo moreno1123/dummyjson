@@ -23,8 +23,8 @@ export default function product(){
 
   return(
     <div className="App">
-          <a href={'/'} className="p-4 bg-gray-300 rounded-lg hover:bg-gray-800 transition duration-200 text-black self-center absolute top-2 left-2">Back</a>
-      <div className="min-w-full flex flex-col lg:flex-row justify-center mt-24 px-2 gap-4">
+      <a href={'/'} className="p-4 bg-gray-300 rounded-lg hover:bg-gray-800 transition duration-200 text-black self-center absolute top-2 left-2">Back</a>
+      <div className="min-w-full flex flex-col lg:flex-row justify-center mt-24 px-2 gap-4 text-white">
         <div className="relative">
           <img src={data.thumbnail} alt="" className="m-auto" />
         </div>
